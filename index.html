@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game</title>
+    <!-- Favicon -->
+    <link rel="icon" href="images/emoji.png" type="image/png">
+    <!-- Google Fonts live  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+    <!-- Style Templete -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="game-info">
+            <div class="game-name">Hangman</div>
+            <div class="category">
+                Word Form: <span></span>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="hangman-draw">
+                <div class="the-draw">
+                    <div class="the-stand"></div>
+                    <div class="the-hang"></div>
+                    <div class="the-rope"></div>
+                    <div class="the-man">
+                        <div class="head"></div>
+                        <div class="body"></div>
+                        <div class="hands"></div>
+                        <div class="legs"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="letters"></div>
+        </div>
+        <hr>
+        <div class="letters-guess"></div>
+    </div>
+
+
+
+
+
+
+        <audio id="success" src="audio/audio_Success-sound-effect.mp3" preload="auto"></audio>
+        <audio id="fail" src="audio/audio_game-fail-sound-effect.mp3" preload="auto"></audio>
+    <script src="js/main.js"></script>
+</body>
+</html>
